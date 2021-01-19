@@ -4,7 +4,7 @@ var str = "S.N.R.I";
 //テキストボックスの文字数 
 var cnt = document.timer2.moji2.value.length; 
 //文字が全部表示されているか確認 
-if ( cnt < 8 ) { 
+if ( cnt < 7 ) { 
 //現在より1文字多く切り出して表示 
 document.timer2.moji2.value = str.substr(0,cnt+1); } else { 
 //全て表示されたら、空文字に戻す 
