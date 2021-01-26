@@ -1,0 +1,1 @@
+function sayhello71() {alert('Hello, ' + document.getElementById('林盛').value + '!');}

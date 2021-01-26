@@ -14,6 +14,11 @@
   <script src="ex06-11.js"></script>
   <script src="ex06-12.js"></script>
   <script src="ex06-13.js"></script>
+  <script src="ex07-1.js"></script>
+  <script src="ex07-3.js"></script>
+  <script src="ex07-5.js"></script>
+  <script src="ex07-8.js"></script>
+
 </head>
 
 <body>
@@ -299,11 +304,11 @@ onclick="saygoodbye();">
 <input type="text" name="moji2" size="30" value=""> 
 </form>
   <br>
- <h1>タイマーイベントによる実行6-12</h1>
+<h1>タイマーイベントによる実行6-12</h1>
       <input type="button" value="3秒で変更" onclick="ThreeSecChange();">
   <img src="./image/pandaman.JPG" id="change p2-12" alt="pandaman">
   <br>
-   <h1>タイマーイベントによる実行の応用6-13</h1>
+<h1>タイマーイベントによる実行の応用6-13</h1>
   <div id="back">
       <input type="button" value="表情変更後3秒で戻る" 
              onclick="ChangeImageAndBack();">
@@ -311,6 +316,19 @@ onclick="saygoodbye();">
   <img src="./image/pandaman.JPG" id="change p2-13" alt="pandaman" class="pandamanchange">
   </div>
   <br>
+<h1>テキスト入力の練習7-1</h1>
+  <input type="button" value="あいさつ" onclick="sayhello71();"><p>誰？<input type="text" id="林盛"></p>
   <br>
+<h1>足し算7-3（）</h1>
+<p><input type="text" id="input1">+<input type="text" id="input2"><input type="button" value="計算" onclick="add();"></p>
+  <br>
+<h1>なぞなぞ7-5</h1>
+  <p>目を閉じてないと見られないものはなーに？</p>
+  <p>答（漢字１文字で）：<input type="text" id="answer"><input type="button" value="解答" onclick="nazo();"></p>
+<br>
+<h1>なぞなぞ7-8()</h1>
+<input type="text" id="answer">
+<input type="button" value="解答" onclick="nazo();">
+<br>
 </body>
 </html>
