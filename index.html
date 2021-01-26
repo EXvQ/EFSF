@@ -16,6 +16,7 @@
   <script src="ex06-13.js"></script>
   <script src="ex07-1.js"></script>
   <script src="ex07-3.js"></script>
+  <script src="ex07-4.js"></script>
   <script src="ex07-5.js"></script>
   <script src="ex07-8.js"></script>
 
@@ -319,16 +320,24 @@ onclick="saygoodbye();">
 <h1>テキスト入力の練習7-1</h1>
   <input type="button" value="あいさつ" onclick="sayhello71();"><p>誰？<input type="text" id="林盛"></p>
   <br>
-<h1>足し算7-3（）</h1>
-<p><input type="text" id="input1">+<input type="text" id="input2"><input type="button" value="計算" onclick="add();"></p>
+<h1>足し算7-3</h1>
+<p>
+<input type="text" id="input1">+<input type="text" id="input2">
+<input type="button" value="計算" onclick="add();">
+</p>
   <br>
+<h1>ボディマス指数判定7-4</h1> 
+<p>
+  体重(kg)<input type="text" id="1input"> + 身長(ｍ) <input type="text" id="2input"> 
+   <input type="button" value="計算" onclick="BMI();"> 
+</p><br>
 <h1>なぞなぞ7-5</h1>
   <p>目を閉じてないと見られないものはなーに？</p>
-  <p>答（漢字１文字で）：<input type="text" id="answer"><input type="button" value="解答" onclick="nazo();"></p>
+  <p>答（漢字１文字で）：<input type="text" id="answer"><input type="button" value="解答" onclick="nazo75();"></p>
 <br>
 <h1>なぞなぞ7-8()</h1>
 <input type="text" id="answer">
-<input type="button" value="解答" onclick="nazo();">
+<input type="button" value="解答" onclick="nazo78();">
 <br>
 </body>
 </html>
